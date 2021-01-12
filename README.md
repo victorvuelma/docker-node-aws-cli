@@ -1,5 +1,7 @@
-# sleavely/node-awscli
+# victorvuelma/node-aws-cli
 
 Lambda-compatible NodeJS images with AWS CLI installed.
 
-[Docker Hub](https://hub.docker.com/r/sleavely/node-awscli) | [Github](https://github.com/Sleavely/docker-node-awscli)
+Fork of https://hub.docker.com/r/sleavely/node-awscli
+
+[Docker Hub](https://hub.docker.com/r/victorvuelma/docker-node-aws-cli) | [Github](https://github.com/victorvuelma/docker-node-aws-cli)
