@@ -1,9 +1,5 @@
-FROM node:12
+FROM node:14-stretch-slim
 
-RUN apt-get update && apt-get install -y python3
-RUN curl -sO https://bootstrap.pypa.io/get-pip.py
-RUN python3 get-pip.py
+RUN apt-get update && apt-get install -y python3 python3-pip
 
-RUN pip install awscli
-
-CMD ["node"]
+RUN pip3 install awscli
