@@ -1,4 +1,4 @@
-# victorvuelma/node-aws-cli
+# victorvuelma/docker-node-aws-cli
 
 Lambda-compatible NodeJS images with AWS CLI installed.
 
