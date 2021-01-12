@@ -1,5 +1,8 @@
 FROM node:14-stretch-slim
 
-RUN apt-get update && apt-get install -y python3 python3-pip
+RUN apt-get -qq update && apt-get -qqy install curl unzip git
 
-RUN pip3 install awscli
+RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+RUN unzip awscliv2.zip
+
+RUN ./aws/install
